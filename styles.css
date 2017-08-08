@@ -43,6 +43,8 @@ input:focus {
   border: 1px solid black;
   flex-basis: 23%;
   height: 15rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .recipeTitle {
@@ -53,4 +55,9 @@ input:focus {
   padding: 1rem;
   margin: 1rem;
   align-self: flex-end;
+}
+
+a {
+  color: #f2f1e8;
+  text-decoration: none;
 }
